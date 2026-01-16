@@ -6,9 +6,11 @@ The model is trained on a structured healthcare dataset and aims to assist in ea
 ---
 
 📁 Project Structure
-├── Heartdisease.ipynb   # Jupyter Notebook (EDA, preprocessing & model training)
+Heart-Disease-Prediction/
+│
+├── Heartdisease.ipynb   # Jupyter Notebook with EDA, preprocessing & model training
 ├── heart.csv            # Dataset used for training and testing
-├── README.md            # Project documentation
+└── README.md            # Project documentation
 
 ##  Dataset Information
 
@@ -69,9 +71,3 @@ The trained models successfully predict heart disease with good accuracy.
 Among all models, **Random Forest** performed the best (if applicable).
 
 ---
-
-##  How to Run the Project
-
-1. Clone the repository
-   ```bash
-   git clone https://github.com/your-username/heart-disease-prediction.git
