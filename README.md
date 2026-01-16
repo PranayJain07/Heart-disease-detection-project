@@ -5,15 +5,12 @@ The model is trained on a structured healthcare dataset and aims to assist in ea
 
 ---
 
-## 📂 Project Structure
+📁 Project Structure
+├── Heartdisease.ipynb   # Jupyter Notebook (EDA, preprocessing & model training)
+├── heart.csv            # Dataset used for training and testing
+├── README.md            # Project documentation
 
-├── Heartdisease.ipynb # Jupyter Notebook with EDA, preprocessing & model training
-├── heart.csv # Dataset used for training and testing
-├── README.md # Project documentation
-
----
-
-## 📊 Dataset Information
+##  Dataset Information
 
 The dataset contains medical attributes commonly used to detect heart disease, such as:
 
@@ -32,7 +29,7 @@ The dataset contains medical attributes commonly used to detect heart disease, s
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 - Python  
 - Jupyter Notebook  
@@ -43,7 +40,7 @@ The dataset contains medical attributes commonly used to detect heart disease, s
 
 ---
 
-## 🧠 Machine Learning Workflow
+##  Machine Learning Workflow
 
 1. Data Loading  
 2. Exploratory Data Analysis (EDA)  
@@ -55,7 +52,7 @@ The dataset contains medical attributes commonly used to detect heart disease, s
 
 ---
 
-## 🚀 Models Implemented
+##  Models Implemented
 
 - Logistic Regression  
 - Decision Tree  
@@ -66,14 +63,14 @@ Performance is evaluated using accuracy, confusion matrix, and classification re
 
 ---
 
-## 📈 Results
+##  Results
 
 The trained models successfully predict heart disease with good accuracy.  
 Among all models, **Random Forest** performed the best (if applicable).
 
 ---
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 
 1. Clone the repository
    ```bash
